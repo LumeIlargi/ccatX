@@ -1,12 +1,12 @@
 * {box-sizing: border-box}
-/* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #6f5c9200;
+  background: #f6e4ffa9;
+  border-radius: 3rem;
 }
 
 /* Add a background color when the inputs get focus */
@@ -14,10 +14,11 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #dddddda2;
   outline: none;
 }
+
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #a07dc0;
+  background-color: #f1e1fffa;
   margin: 0;
   padding: 0;
 }
@@ -26,9 +27,8 @@ body {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #ddc6eb;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #8247a7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.932);
 }
 
 .form {
@@ -41,30 +41,20 @@ h2 {
   text-align: center;
 }
 
-input[type="text"],
-input[type="password"],
-button {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3em;
-  font-size: 16px;
-}
-
 .nav-item {
-  background-color: #89489ca9;
   border-radius: 23em;
 }
 
 button {
-  background-color: #984caf6c;
-  color: rgba(0, 0, 0, 0.596);
+  background-color: #984caf;
+  color: rgba(255, 255, 255, 0.596);
   cursor: pointer;
-  border: #89489ca9;
+  border: #88489c;
+  border-radius: 23em;
 }
 
 button:hover {
-  background-color: #89489ca9;
+  background-color: #ac76d8;
   border-radius: 23em;
 }
 
@@ -75,40 +65,16 @@ button:hover {
 }
 
 .bg {
-  background-color: #d9b8dd;
-}
-
-body {
-  background: rgb(99, 39, 120)
+  background-color: #f5e0ffa9;
 }
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #BA68C8
-}
-
-.profile-button {
-  background: rgb(99, 39, 120);
-  box-shadow: none;
-  border: none
-}
-
-.profile-button:hover {
-  background: #682773
-}
-
-.profile-button:focus {
-  background: #682773;
-  box-shadow: none
-}
-
-.profile-button:active {
-  background: #682773;
-  box-shadow: none
+  border-color: #fceeffc4
 }
 
 .back:hover {
-  color: #682773;
+  color: #c87ad6;
   cursor: pointer
 }
 
@@ -118,7 +84,7 @@ body {
 
 .add-experience:hover {
   background: #BA68C8;
-  color: #fff;
+  color: #f3e4fc;
   cursor: pointer;
-  border: solid 1px #BA68C8
+  border: none 1px #BA68C8
 }
