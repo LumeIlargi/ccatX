@@ -1,4 +1,4 @@
-# ccatX
+# ccatX [ WORK IN PROGRESS ]
 Curiouscat, but better.
 
 ## About:
